@@ -1,8 +1,12 @@
+import { validateStringNotEmpty, validateNumber } from './validation';
+
+
 export function transformToNumber(value) {
   return +value;
 }
 
 export function getNumbersValue(numberInputs) {
+
   const numbers = [];
     for (const numberInput of numberInputs) {
       validateStringNotEmpty(numberInput);

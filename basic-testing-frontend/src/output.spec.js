@@ -34,3 +34,6 @@ describe('GetOutput function', () => {
     expect(returnedValue).toBe('');
   });
 });
+
+
+

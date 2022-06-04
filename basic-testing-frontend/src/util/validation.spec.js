@@ -1,7 +1,7 @@
 import { validateStringNotEmpty, validateNumber } from './validation';
 import { it, expect, describe } from 'vitest';
 
-describe('Validate stringNotEmpty function', () => {
+describe('validateStringNotEmpty()', () => {
   it('it should throw if no value', () => {
     const result = () => validateStringNotEmpty();
     expect(result).toThrow();
@@ -14,7 +14,7 @@ describe('Validate stringNotEmpty function', () => {
   });
 });
 
-describe('Validate validateNumber function', () => {
+describe('validateNumber()', () => {
     it('should throw if passed an invalid parameter', () => {
         const number = 'invalid';
         const result = () => validateNumber(number);

@@ -9,3 +9,4 @@ export function validateNumber(number) {
     throw new Error('Invalid number input.');
   }
 }
+
